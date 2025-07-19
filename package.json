@@ -1,0 +1,22 @@
+{
+  "name": "customer-support-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "watch": "tsc --watch",
+    "start": "tsx dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.0.15",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
